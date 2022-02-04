@@ -27,7 +27,7 @@ Then it:
 - Fixes the ownership and the permissions of the remote folder and its content.
 - Runs composer dump-autoload -o
 
-In production mode, in addition it:
+In production mode, the following is executed:
 - Runs php artisan run optimize
 - Replaces in .env the APP_DEBUG and APP_ENV variables.
 
