@@ -23,7 +23,7 @@ The source folder does not exist!
 Run the script as ./remoteSync.sh mycredentials@myRemote
 The script starts by validating the existence of the local and remote folders.  
 It proceeds with the synchronization and displays the statistics.  
-Finally it:
+Then it:
 - Fixes the ownership and the permissions of the remote folder and its content.
 - Runs composer dump-autoload -o
 
