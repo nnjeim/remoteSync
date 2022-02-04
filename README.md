@@ -3,7 +3,7 @@ Utility to synchronise a local Laravel project to a a remote location using rsyn
 Following the files synchronisation the script will proceed by optimising the remote Laravel instance.
 
 #### Installation
-- Copy the script `remoteSync.sh` into your projects' folder. 
+- Copy the script `remoteSync.sh` into your local projects' folder. 
 - Attribute execution permissions to it, by running the command `chmod +x remoteSync.sh`
 
 #### Usage
