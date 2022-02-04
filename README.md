@@ -4,7 +4,7 @@ Following the file synchronisation the script will optimise the remote instance.
 
 #### Installation
 - Copy and paste the script into a file named remoteSync.sh
-- Run the command `chmod +x remoteSync.sh`
+- Add execution permissions by running the command `chmod +x remoteSync.sh`
 
 #### Usage
 ```
@@ -23,12 +23,12 @@ The source folder does not exist!
 Run the script as ./remoteSync.sh mycredentials@myRemote
 The script starts by validating the existence of the local and remote folders.  
 It proceeds with the synchronization and displays the statistics.  
-Finally it:
+Then it:
 - Fixes the ownership and the permissions of the remote folder and its content.
 - Runs composer dump-autoload -o
 
-In production mode, it:
-- Runs php run optimize
+In production mode, the following is executed:
+- Runs php artisan run optimize
 - Replaces in .env the APP_DEBUG and APP_ENV variables.
 
 Finally it restart php-fpm.
