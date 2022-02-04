@@ -1,6 +1,6 @@
 ### remoteSync bash script
-Utility to sync a local Laravel project to a a remote location using rsync.
-Following the file synchronisation the script will optimise the remote instance.
+Utility to synchronise a local Laravel project to a a remote location using rsync.
+Following the files synchronisation the script will proceed by optimising the remote Laravel instance.
 
 #### Installation
 - Copy and paste the script into a file named remoteSync.sh
