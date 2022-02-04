@@ -22,7 +22,7 @@ The source folder does not exist!
 ```
 
 The script starts by validating the existence of the local and remote folders.  
-It proceeds with the synchronization and displays the statistics.  
+It proceeds with the synchronization then displays the statistics.  
 Then it:
 - Recursively fixes the ownership and the permissions of the remote folder and its content.
 - Runs composer dump-autoload -o
