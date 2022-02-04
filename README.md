@@ -18,14 +18,14 @@ Environment
 Choose an option 1-2 [2]> 2
 ```
 
-The script starts by validating the existence of the local and remote folders.  
-It proceeds with the synchronization then displays the statistics.  
-Then it:
-- Recursively fixes the ownership and the permissions of the remote folder and its content.
-- Runs composer dump-autoload -o
+The script starts by validating the existence of both the local and remote folders.  
+It proceeds with the files synchronization then displays the statistics.  
+Then:
+- It recursively fixes the ownership and the permissions of the remote folder and its content.
+- It runs `composer dump-autoload -o`
 
 Furthermore in production mode, the script will:
-- Runs php artisan run optimize
+- Runs `php artisan run optimize`
 - Replaces in .env the APP_DEBUG value to false and APP_ENV value to production.
 - Restarts php8.0-fpm.  
   
