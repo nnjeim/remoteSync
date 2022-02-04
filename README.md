@@ -4,7 +4,7 @@ Following the file synchronisation the script will optimise the remote instance.
 
 #### Installation
 - Copy and paste the script into a file named remoteSync.sh
-- Run the command `chmod +x remoteSync.sh`
+- Add execution permissions by running the command `chmod +x remoteSync.sh`
 
 #### Usage
 ```
