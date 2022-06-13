@@ -1,6 +1,6 @@
 #!/bin/bash
-credentials=root@staging
-lastUsedSourceFolder=orthicon-api.cfrev.com
+credentials=root@web
+lastUsedSourceFolder=api.bmbc.cloud
 remoteHtmlPath=/var/www/html
 red='\033[0;31m'
 green='\033[0;32m'
